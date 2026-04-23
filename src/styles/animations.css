@@ -1,0 +1,30 @@
+/* Shared keyframes for non–Framer Motion fallbacks */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes image-unblur {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s var(--ease-out, ease-out) forwards;
+}
+
+.animate-image-unblur {
+  animation: image-unblur 1s var(--ease-out, ease-out) forwards;
+}
