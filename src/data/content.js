@@ -228,7 +228,7 @@ export const content = {
       'Foto konten utama: Wikimedia Commons (dokumentasi Coachella 2018 dan Wanderland 2025). Gambar khusus lagu: diolah dari artwork resmi rilisan Daniel Caesar melalui Apple Music/iTunes API (non-Wikipedia).',
   },
   meta: {
-    title: 'ikrvell — catatan dengar personal',
+    title: 'Daniel Caesar — Journey',
     description:
       'Arsip dengar personal oleh ikrvell: ringkasan perjalanan, lagu pilihan, dan catatan singkat dengan pendekatan visual yang bersih.',
   },
